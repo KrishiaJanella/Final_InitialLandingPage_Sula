@@ -5,8 +5,8 @@
     <title>My Photo Gallery</title>
     <style type="text/css">
         body {
-            margin: 0; /* Remove default margin */
-            padding: 0; /* Remove default padding */
+            margin: 0; 
+            padding: 0; 
         }
     </style>
     <link rel="stylesheet" href="MyPhotoGallery.css">
@@ -14,6 +14,7 @@
 <!--Back to Home-->
 <!--NavBar-->
 <body>
+    <base  target="tab">
     
     <br  id="MyPhotoGallery">
     <div class="aboutMe">
@@ -30,15 +31,15 @@
         <div style="display: flex; margin: 50px 120px 120px 120px; justify-content: center;">
             <div class="hoverResume">
                 <img class="original-image" src="../buttons/childhood.png" alt="">
-                <a href="#MyPassionHobbies"><img class="hover-image" src="../buttons/childhood1.png" alt=""></a>
+                <a href="#MyPhotoGalleryChildhood"><img class="hover-image" src="../buttons/childhood1.png" alt=""></a>
             </div>
             <div class="hoverResume">
                 <img class="original-image" src="../buttons/teenage.png" alt="">
-                <a href="#MyPassionInterest"><img class="hover-image" src="../buttons/teenage1.png" alt=""></a>
+                <a href="#MyPhotoGalleryTeenage"><img class="hover-image" src="../buttons/teenage1.png" alt=""></a>
             </div>
             <div class="hoverResume">
                 <img class="original-image" src="../buttons/college.png" alt="">
-                <a href="#MyPassionSkills"><img class="hover-image" src="../buttons/college1.png" alt=""></a>
+                <a href="#MyPhotoGalleryCollege"><img class="hover-image" src="../buttons/college1.png" alt=""></a>
             </div>
             
         </div>
@@ -53,27 +54,22 @@
         </div>
         <br><br>
         <div class="galleryContent">
-            <img src="../childhood/Childhood.jpeg" alt="">
-            <img src="../childhood/received_1162654990499295.jpeg" alt="">
-            <img src="../childhood/received_1162655410499253.jpeg" alt="">
-            <img src="../childhood/received_1162655493832578.jpeg" alt="">
-            <img src="../childhood/received_1162655700499224.jpeg" alt="">
+            <a href="../childhood/received_1164815060283288.jpeg" target="tab"><img src="../childhood/received_1164815060283288.jpeg" alt="Childhood photo" title="This is a photo of me taken at a beach in San Jose, Antique."></a>
+            <a href="../childhood/received_1162654990499295.jpeg" target="tab" ><img src="../childhood/received_1162654990499295.jpeg" alt="Childhood photo" title="This is a photo of me taken at a studio."></a>
+            <a href="../childhood/received_1162655410499253.jpeg" target="tab" ><img src="../childhood/received_1162655410499253.jpeg" alt="Childhood photo" title="This is photo of me celebrating my 2nd birthday at my house in Taytay, Rizal."></a>
+            <a href="../childhood/received_1164815156949945.jpeg" target="tab" ><img src="../childhood/received_1164815156949945.jpeg" alt="Childhood photo" title="This is a photo of me taken infront of a Jollibee restaurant."></a>
+            <a href="../childhood/received_1162655700499224.jpeg" target="tab" ><img src="../childhood/received_1162655700499224.jpeg" alt="Childhood photo" title="This is a photo of me celebrating Christmas at my home in Taytay, Rizal."></a>
         </div>
         <div class="galleryContent">
-            <img src="../childhood/received_1164813766950084.jpeg" alt="">
-            <img src="../childhood/received_1164813813616746.jpeg" alt="">
-            <img src="../childhood/received_1164815043616623.jpeg" alt="">
-            <img src="../childhood/received_1164814016950059.jpeg" alt="">
-            <img src="../childhood/received_1164814773616650.jpeg" alt="">
-        </div>
-        <div class="galleryContent">
-            <img src="../childhood/received_1164815060283288.jpeg" alt="">
-            <img src="../childhood/received_1164815156949945.jpeg" alt="">
-
-        </div>
-        <p class="backtotop"><a href="#MyPhotoGallery">Back to top</a></p>
+            <a href="../childhood/received_1164813766950084.jpeg" target="tab"><img src="../childhood/received_1164813766950084.jpeg" alt="Childhood photo" title="This is a photo of me taken at a bowling place."></a>
+            <a href="../childhood/received_1164813813616746.jpeg" target="tab"><img src="../childhood/received_1164813813616746.jpeg" alt="Childhood photo" title="This is a photo of me when I was a flower girl at my uncle Denis' wedding."></a>
+            <a href="../childhood/received_1164815043616623.jpeg" target="tab"><img src="../childhood/received_1164815043616623.jpeg" alt="Childhood photo" title="This is a photo of me and my parents when I celebrated my 1st birthday."></a>
+            <a href="../childhood/received_1164814016950059.jpeg" target="tab"><img src="../childhood/received_1164814016950059.jpeg" alt="Childhood photo" title="This is a photo of me taken at a bounce house."></a>
+            <a href="../childhood/received_1164814773616650.jpeg" target="tab"><img src="../childhood/received_1164814773616650.jpeg" alt="Childhood photo" title="This is a photo of me and my fathier taken at Manila Zoo."></a>
+        </div> <br>
+        <p class="backtotop" style="text-align: center; margin: 0; "><a href="#MyPhotoGallery">Back to top</a> | <a href="#MyPhotoGalleryTeenage">Next</a></p>
     </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     
     <div class="teenage">
         <br id="MyPhotoGalleryTeenage"><br><br>
@@ -82,31 +78,33 @@
             <hr class="underline2">
         </div>
         <div class="galleryContent">
-            <img src="../teenage/29497698_2096792740554763_647934606901377090_n.jpg" alt="">
-            <img src="../teenage/678470CC-D077-41E4-92E8-D126DC16175D-987-0000011F5B2BB77C.JPG" alt="">
-            <img src="../teenage/AHGE6256.JPG" alt="">
-            <img src="../teenage/IMG_0056.JPG" alt="">
-            <img src="../teenage/IMG_0337.JPG" alt="">
-        </div>
-        <div class="galleryContent">
-            <img src="../teenage/IMG_0417.JPG" alt="">
-            <img src="../teenage/IMG_0457.JPG" alt="">
-            <img src="../teenage/IMG_0636.JPG" alt="">
-            <img src="../teenage/IMG_0656.JPG" alt="">
-            <img src="../teenage/IMG_1104.JPG" alt="">
-        </div>
-        <div class="galleryContent">
-            <img src="../teenage/IMG_1268.JPG" alt="">
-            <img src="../teenage/IMG_1346.JPG" alt="">
-            <img src="../teenage/IMG_1348.JPG" alt="">
-            <img src="../teenage/IMG_1535.JPG" alt="">
-            <img src="../teenage/" alt="">
+            <a href="../teenage/678470CC-D077-41E4-92E8-D126DC16175D-987-0000011F5B2BB77C.JPG" target="tab"><img src="../teenage/678470CC-D077-41E4-92E8-D126DC16175D-987-0000011F5B2BB77C.JPG" alt="Teenage Photo" title="This is a photo of me and my dog, Pretzel taken at Ynares center, Antipolo, Rizal"></a>
 
+            <a href="../teenage/AHGE6256.JPG" target="tab"><img src="../teenage/AHGE6256.JPG" alt="Teenage Photo" title="This is a photo of me and my classmates on the way home after a class suspension."></a>
+
+            <a href="../teenage/IMG_0656.JPG" target="tab"><img src="../teenage/IMG_0656.JPG" alt="Teenage Photo" title="This is a photo of me during my grade 10 field trip at the Enchanted kingdom."></a>
+
+            <a href="../teenage/IMG_1104.JPG" target="tab"><img src="../teenage/IMG_1104.JPG" alt="Teenage Photo" title="This is a photo of me and my thesis groupmates before our thesis defense when i was in 10th grade."></a>
+            
+            <a href="../teenage/IMG_1535.JPG" target="tab"><img src="../teenage/IMG_1535.JPG" alt="Teenage Photo" title="This is a photo of me taken during rizal day when I was chosen to play Rizal's mother on a play."></a>
         </div>
-        <p class="backtotop"><a href="#MyPhotoGallery">Back to top</a></p>
+        <div class="galleryContent">
+            <a href="../teenage/IMG_2898.JPG" target="tab"><img src="../teenage/IMG_2898.JPG" alt="Teenage Photo" title="This is a photo of me, my classmates, and my grandmother when I receive a certificate of achievement at my school."></a>
+
+            <a href="../teenage/IMG_3622.JPG" target="tab"><img src="../teenage/IMG_3622.JPG" alt="Teenage Photo" title="This is a photo of me and my classmates wearing red during vatentines day at school."></a>
+
+            <a href="../teenage/IMG_3959.JPG" target="tab"><img src="../teenage/IMG_3959.JPG" alt="Teenage Photo " title="This is a photo of me and y classmates featuring a painting that we made during of Arts subject."></a>
+
+            <a href="../teenage/IMG_4602.JPG" target="tab"><img src="../teenage/IMG_4602.JPG" alt="Teenage Photo" title="This is a photo of me dressed up as a doctor during our 'Dress to Success' at my school when i was on grade 10"></a>
+            
+            <a href="../teenage/IMG_7334.JPG" target="tab"><img src="../teenage/IMG_7334.JPG" alt="Teenage Photo" title="This is a photo of me taken at Wawa, Angono when me and my groupmates went to collect water hyacinth for our thesis project."></a>
+        </div>
+        <br>
+        <p class="backtotop" style="text-align: center; margin: 0; "> <a href="#MyPhotoGalleryChildhood">Previous</a> | <a href="#MyPhotoGallery">Back to top</a> | <a href="#MyPhotoGalleryCollege">Next</a> </p>
+        
     </div>
     
-    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div class="teenage">
         <br id="MyPhotoGalleryCollege"><br><br>
         <div>
@@ -114,25 +112,29 @@
             <hr class="underline2">
         </div>
         <div class="galleryContent">
-            <img src="../childhood/Childhood.jpeg" alt="">
-            <img src="../childhood/received_1162654990499295.jpeg" alt="">
-            <img src="../childhood/received_1162655410499253.jpeg" alt="">
-            <img src="../childhood/received_1162655493832578.jpeg" alt="">
-            <img src="../childhood/received_1162655700499224.jpeg" alt="">
-        </div>
-        <div class="galleryContent">
-            <img src="../childhood/received_1164813766950084.jpeg" alt="">
-            <img src="../childhood/received_1164813813616746.jpeg" alt="">
-            <img src="../childhood/received_1164815043616623.jpeg" alt="">
-            <img src="../childhood/received_1164814016950059.jpeg" alt="">
-            <img src="../childhood/received_1164814773616650.jpeg" alt="">
-        </div>
-        <div class="galleryContent">
-            <img src="../childhood/received_1164815060283288.jpeg" alt="">
-            <img src="../childhood/received_1164815156949945.jpeg" alt="">
+            <a href="../college/396262180_3681352732098748_7207511047592254372_n.jpg" target="tab"><img src="../college/396262180_3681352732098748_7207511047592254372_n.jpg" alt="College Photo" title="This is a photo of me and my friends taken at Kape Hingahan in Angono, Rizal."></a>
 
+            <a href="../college/418161211_3726580117576009_8198987708050180124_n.jpg" target="tab"><img src="../college/418161211_3726580117576009_8198987708050180124_n.jpg" alt="College Photo" title="This is a photo of me and my friends when we were at a boat ride on the way to the beach in Infanta, Quezon."></a>
+
+            <a href="../college/418435143_3726581507575870_9197068276238035274_n.jpg" target="tab"""><img src="../college/418435143_3726581507575870_9197068276238035274_n.jpg" alt="College Photo" title="This is a photo of me and my friends enjoying the beach at Infanta, Quezon."></a>
+
+            <a href="../college/418439940_3726580497575971_3160632466621964830_n.jpg" target="tab"><img src="../college/418439940_3726580497575971_3160632466621964830_n.jpg" alt="College Photo" title="This is a photo of me and my guy friends taken beside a waterfall at Infanta, Quezon."></a>
+            
+            <a href="../college/418500124_3726579794242708_5627068814832358570_n.jpg" target="tab"><img src="../college/418500124_3726579794242708_5627068814832358570_n.jpg" alt="College Photo" title="This is a photo of me and my friends when we stopover at my friends house."></a>
         </div>
-        <p class="backtotop"><a href="#MyPhotoGallery">Back to top</a></p>
+        <div class="galleryContent">
+            <a href="../college/418505213_3726581027575918_2544208439581882680_n.jpg" target="tab"><img src="../college/418505213_3726581027575918_2544208439581882680_n.jpg" alt="College Photo" title="This is a photo of me and my good friend Laira jane."></a>
+
+            <a href="../college/IMG_1257.jpg" target="tab"><img src="../college/IMG_1257.jpg" alt="College Photo" title="This is a photo of me and my classmates at a Korean BBQ unlimited restaurant at Espanya, Manila."></a>
+
+            <a href="../college/IMG_8269.jpg" target="tab"><img src="../college/IMG_8269.jpg" alt="College Photo" title="This is a photo of me when e and my classmates went to eat at a K-Mart."></a>
+
+            <a href="../college/IMG_E1346.JPG" target="tab"><img src="../college/IMG_E1346.JPG" alt="College Photo" title="This is a photo of me that I took for my 20th birthday."></a>
+            
+            <a href="../college/IMG_8679.jpg" target="tab"><img src="../college/IMG_8679.jpg" alt="College Photo" title="This is a photo of me and my classmates taken when we are crossing the road at Recto, Manila"></a>
+        </div>
+
+        <p class="backtotop" style="text-align: center; margin: 0; "> <a href="#MyPhotoGalleryTeenage">Previous</a> | <a href="#MyPhotoGallery">Back to top</a></p>
     </div>
     
 </body>
