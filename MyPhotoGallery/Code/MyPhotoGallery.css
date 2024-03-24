@@ -1,4 +1,85 @@
+.navigation{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #fffafa;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
 
+.title{
+    justify-content: left;
+}
+#navButtons{
+    display: flex;
+    margin-top: 15px;
+}
+#navButtons a:hover{
+    color: #7D7171;
+}
+#navButtons a{
+    margin-right: 30px;
+    margin-top: 50px;
+    color: #DD7777;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    background-color: #fffafa;
+    border-radius: 50%;
+    font-size: 13px;
+    text-align: center;
+
+}
+
+.title>h1{
+    font-family: Cambria, Cochin, Georgia, serif;
+    font-size: 30px;
+    margin: 4px 0px 0 0;
+    text-shadow: 3px 3px #fad3d3;
+    justify-content: left;
+    color: #DD7777;
+}
+
+
+.navIconsCont{
+    display: flex;
+}
+.navIconsCont img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+.navContainer > div:hover{
+    color: #7D7171;
+}
+.navIconsCont img:hover{
+    box-shadow: 0px 4px 4px #DD7777; /* Add a shadow effect */
+    border-radius: 50%;
+}
+
+.underline{
+    border: 0; 
+    border-top: 2px solid #DD7777; 
+    width: 25%; 
+    margin:0 auto;
+
+}
+.homepage{
+    margin-top: 450px;
+    margin-left: 450px;
+    justify-content: center;
+}
+nav img{
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    
+}
 
 .underline{
     border: 0; 
