@@ -417,3 +417,34 @@ nav img{
     color: #DD7777;
     font-size: 13px;
 }
+
+.galleryContent{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.galleryContent img{
+    width: 150px;
+    height: 200px;
+    margin: 30px ;
+    border-radius: 10px;
+    opacity: .50;
+    background-color: #7D7171;
+    
+}
+
+.galleryContent img:hover{
+    display: block;
+    box-shadow: 0 0 15px  #DD7777; /* Add a shadow effect */
+    
+    width: 150px;
+    height: 200;
+    margin: 30px;
+    border-radius: 10px;
+    opacity: 1;
+
+    
+    
+    
+}
