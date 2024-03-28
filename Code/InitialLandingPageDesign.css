@@ -21,7 +21,7 @@
     color: #7D7171;
 }
 #navButtons a{
-    margin-right: 30px;
+    margin-right: 40px;
     margin-top: 50px;
     color: #DD7777;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -378,6 +378,7 @@ nav img{
     width: 700px; 
     height: auto;
     margin-left: 20px;
+    border-radius: 30px;
 }
 .movieblock h1{
     font-family: Cambria, Cochin, Georgia, Times, serif; 
@@ -443,8 +444,58 @@ nav img{
     margin: 30px;
     border-radius: 10px;
     opacity: 1;
+}
 
+
+.NZcont{
+    display: flex; 
+}
+.NZcont img{
+    width: 50%;
+    height: auto;
     
     
+}
+.bucketlistcontent{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
+    
+}
+.bucketlistcontent img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    vertical-align: middle;
+    
+}
+
+.bucketlistcont{
+    height: 400px;
+    width: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    background-color: #f7eeef;
+    box-shadow:3px 3px 5px #ddd5d5;
+    border-radius: 30px;
+    
+}
+
+.bucketlistcontent p{
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 12px;
+    font-weight: lighter;
+    color: #7D7171;
+    line-height: 20px;
+}
+.bucketlistcontent h3{
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    color: #DD7777;
+
 }
